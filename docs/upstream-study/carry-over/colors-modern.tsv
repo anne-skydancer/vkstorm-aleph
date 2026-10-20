@@ -1,0 +1,496 @@
+entries: 495 unique: 495
+ScriptDialog	0.223 0.216 0.207 1	0.223 0.216 0.207 1	#393735
+ScriptDialogFg	1 1 1 1	1 1 1 1	#ffffff
+AccentColor	->Kokua	0.749 0.467 0.808 1	#bf77ce
+EmphasisColor	->Kokua	0.749 0.467 0.808 1	#bf77ce
+EmphasisColor_35	->Kokua_42	0.749 0.467 0.808 .42	#bf77ce a=0.42
+SelectionColor	0.75 0.45 0.81 1	0.75 0.45 0.81 1	#bf73cf
+SchemeLightest	->Kokua	0.749 0.467 0.808 1	#bf77ce
+SchemeLightest_35	->EmphasisColor_35	0.749 0.467 0.808 .42	#bf77ce a=0.42
+SchemeDark	0.49 0.33 0.25 1.0	0.49 0.33 0.25 1.0	#7d5440
+EmphasisColor_13	->Kokua_13	0.749 0.467 0.808 .13	#bf77ce a=0.13
+BeaconColor	0.749 0.298 0 1	0.749 0.298 0 1	#bf4c00
+White	1 1 1 1	1 1 1 1	#ffffff
+White_05	1 1 1 0.05	1 1 1 0.05	#ffffff a=0.05
+White_10	1 1 1 0.1	1 1 1 0.1	#ffffff a=0.10
+White_25	1 1 1 0.25	1 1 1 0.25	#ffffff a=0.25
+White_50	1 1 1 0.5	1 1 1 0.5	#ffffff a=0.50
+White_70	1 1 1 0.7	1 1 1 0.7	#ffffff a=0.70
+LtGray	0.75 0.75 0.75 1	0.75 0.75 0.75 1	#bfbfbf
+LtGray_35	0.75 0.75 0.75 0.35	0.75 0.75 0.75 0.35	#bfbfbf a=0.35
+LtGray_50	0.75 0.75 0.75 0.50	0.75 0.75 0.75 0.50	#bfbfbf a=0.50
+LtGray_75	0.90 0.90 0.90 0.75	0.90 0.90 0.90 0.75	#e6e6e6 a=0.75
+Gray	0.5 0.5 0.5 1	0.5 0.5 0.5 1	#808080
+DkGray0	0.27 0.27 0.27 1	0.27 0.27 0.27 1	#454545
+DkGray	0.125 0.125 0.125 1	0.125 0.125 0.125 1	#202020
+DkGray_66	0.125 0.125 0.125 .66	0.125 0.125 0.125 .66	#202020 a=0.66
+DkGray_86	0.125 0.125 0.125 .86	0.125 0.125 0.125 .86	#202020 a=0.86
+DkGray2	0.169 0.169 0.169 1	0.169 0.169 0.169 1	#2b2b2b
+MouseGray	0.191 0.191 0.191 1	0.191 0.191 0.191 1	#313131
+Black	0 0 0 1	0 0 0 1	#000000
+Black_10	0 0 0 0.1	0 0 0 0.1	#000000 a=0.10
+Black_25	0 0 0 0.25	0 0 0 0.25	#000000 a=0.25
+Black_50	0 0 0 0.5	0 0 0 0.5	#000000 a=0.50
+Black_78	0 0 0 0.78	0 0 0 0.78	#000000 a=0.78
+FrogGreen	0.26 0.345 0.263 1	0.26 0.345 0.263 1	#425843
+Red	1 0 0 1	1 0 0 1	#ff0000
+Blue	0 0 1 1	0 0 1 1	#0000ff
+Yellow	1 1 0 1	1 1 0 1	#ffff00
+Green	0 1 0 1	0 1 0 1	#00ff00
+LtGreen	0.2 1 0.2 1	0.2 1 0.2 1	#33ff33
+Transparent	0 0 0 0	0 0 0 0	#000000 a=0.00
+Purple	1 0 1 1	1 0 1 1	#ff00ff
+Lime	.8 1 .73 1	.8 1 .73 1	#ccffba
+LtYellow	1 1 .79 1	1 1 .79 1	#ffffc9
+DrYellow	1 0.86 0 1	1 0.86 0 1	#ffdb00
+LtOrange	1 .85 .73 1	1 .85 .73 1	#ffd9ba
+LtRed	1 0.2 0.2 1	1 0.2 0.2 1	#ff3333
+SL-White	1 1 1 1	1 1 1 1	#ffffff
+SL-Normal	0.25 0.100 0.225 1	0.25 0.100 0.225 1	#401a39
+SL-Dark	0.150 0.70 0.290 1	0.150 0.70 0.290 1	#26b24a
+SL-Background_Light	0.125 0.125 0.125 1	0.125 0.125 0.125 1	#202020
+SL-Background	0.125 0.125 0.125 1	0.125 0.125 0.125 1	#202020
+SL-Background_50	0.125 0.125 0.125 0.50	0.125 0.125 0.125 0.50	#202020 a=0.50
+SL-Background_66	0.125 0.125 0.125 0.66	0.125 0.125 0.125 0.66	#202020 a=0.66
+SL-Foreground	0.375 0.120 0.400 1	0.375 0.120 0.400 1	#601f66
+SL-Foreground_50	0.375 0.120 0.400 0.50	0.375 0.120 0.400 0.50	#601f66 a=0.50
+SL-Foreground_66	0.375 0.120 0.400 0.66	0.375 0.120 0.400 0.66	#601f66 a=0.66
+SL-Silver	0.75 0.75 0.75 1	0.75 0.75 0.75 1	#bfbfbf
+SL-MidGray_50	0.7 0.7 0.7 0.50	0.7 0.7 0.7 0.50	#b2b2b2 a=0.50
+SL-MidDkGray	0.5 0.5 0.5 1	0.5 0.5 0.5 1	#808080
+SL-MidDkGray_50	0.5 0.5 0.5 0.50	0.5 0.5 0.5 0.50	#808080 a=0.50
+SL-Titanium_25	0.25 0.25 0.25 0.25	0.25 0.25 0.25 0.25	#404040 a=0.25
+SL-Titanium	0.3 0.3 0.3 1	0.3 0.3 0.3 1	#4c4c4c
+SL-DkTitanium	0.24 0.24 0.24 1	0.24 0.24 0.24 1	#3d3d3d
+SL-TitaniumGray	0.4 0.4 0.4 1	0.4 0.4 0.4 1	#666666
+SL-MidBlue	0.3 0.6 0.9 1	0.3 0.6 0.9 1	#4c99e6
+OldGray_63	0.243 0.243 0.243 0.63	0.243 0.243 0.243 0.63	#3e3e3e a=0.63
+Brown	0.225 0.100 0.05 1	0.225 0.100 0.05 1	#391a0d
+BrickBrown	0.6 0 0 1	0.6 0 0 1	#990000
+BrightRed	1 0 0 1	1 0 0 1	#ff0000
+NavyBlue_0	0 0.12 0.24 0	0 0.12 0.24 0	#001f3d a=0.00
+MdBlue	.07 .38 .51 1	.07 .38 .51 1	#126182
+Cerise_0	1 0.3 0.3 0	1 0.3 0.3 0	#ff4c4c a=0.00
+DkBlue	.06 .06 .3 1	.06 .06 .3 1	#0f0f4c
+Titanium_0	0.3 0.3 0.3 0	0.3 0.3 0.3 0	#4c4c4c a=0.00
+Red_80	1 0 0 0.8	1 0 0 0.8	#ff0000 a=0.80
+DkRed	0.3 0.06 0.06 1	0.3 0.06 0.06 1	#4c0f0f
+Green_80	0 1 0 0.8	0 1 0 0.8	#00ff00 a=0.80
+Blue_80	0 0 1 0.8	0 0 1 0.8	#0000ff a=0.80
+LtBlue	0 0.5 1 1	0 0.5 1 1	#0080ff
+Orange	1 .82 .46 1	1 .82 .46 1	#ffd175
+DkGray2_10	0.169 0.169 0.169 0.1	0.169 0.169 0.169 0.1	#2b2b2b a=0.10
+MidBlue	0 0 0.5 1	0 0 0.5 1	#000080
+AnsaStormBlue_Lt	0 0.7305 1 1	0 0.7305 1 1	#00baff
+AnsaStormBlue_Dk	0.258 0.363 0.472 1	0.258 0.363 0.472 1	#425d78
+AnsaStormBlue_Dk_86	0.258 0.363 0.472 0.86	0.258 0.363 0.472 0.86	#425d78 a=0.86
+AnsaStormBlue_Dk_66	0.258 0.363 0.472 0.66	0.258 0.363 0.472 0.66	#425d78 a=0.66
+AnsaStormBlue_Dk_33	0.258 0.363 0.472 0.33	0.258 0.363 0.472 0.33	#425d78 a=0.33
+AnsaStormBlue_Dk_13	0.258 0.363 0.472 0.13	0.258 0.363 0.472 0.13	#425d78 a=0.13
+AnsaStormBlue_Lt_13	0 0.7305 1 0.13	0 0.7305 1 0.13	#00baff a=0.13
+AnsaStormBlue_Dk_Emphasis	0 0.5117 0.6992 0.66	0 0.5117 0.6992 0.66	#0082b2 a=0.66
+AnsaStorm_HtmlLink	0 0.6 0.82 1	0 0.6 0.82 1	#0099d1
+AnsaStorm_HtmlLink_QueryPart	0.463 0.729 0.826 1	0.463 0.729 0.826 1	#76bad3
+Unused?	.831 1 0 1	.831 1 0 1	#d4ff00
+BottomTrayAlphaColor	->Transparent	0 0 0 0	#000000 a=0.00
+BottomTrayOpaqueColor	->Transparent	0 0 0 0	#000000 a=0.00
+GridlineBGColor	0.92 0.92 1 0.78	0.92 0.92 1 0.78	#ebebff a=0.78
+ChicletFlashColor	->Kokua_11	0.749 0.467 0.808 .11	#bf77ce a=0.11
+GroupOverTierColor	0.43 0.06 0.06 1	0.43 0.06 0.06 1	#6e0f0f
+HighlightParentColor	0.67 0.83 0.96 1	0.67 0.83 0.96 1	#abd4f5
+MapAvatarSelfColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+MenuNonProductionGodBgColor	0.263 0.325 0.345 1	0.263 0.325 0.345 1	#435358
+NetMapGroupOwnBelowWater	0.78 0 0.78 0.8	0.78 0 0.78 0.8	#c700c7 a=0.80
+NetMapGroupOwnAboveWater	1 0 1 0.9	1 0 1 0.9	#ff00ff a=0.90
+NetMapOtherOwnAboveWater	0.24 0.24 0.24 0.9	0.24 0.24 0.24 0.9	#3d3d3d a=0.90
+NetMapOtherOwnBelowWater	0.12 0.12 0.12 0.8	0.12 0.12 0.12 0.8	#1f1f1f a=0.80
+NetMapYouOwnAboveWater	0 1 1 0.9	0 1 1 0.9	#00ffff a=0.90
+NetMapYouOwnBelowWater	0 0.78 0.78 0.8	0 0.78 0.78 0.8	#00c7c7 a=0.80
+PieMenuBgColor	0 0 0 0.75	0 0 0 0.75	#000000 a=0.75
+PieMenuBgColorOverride	0.24 0.24 0.24 1.0	0.24 0.24 0.24 1.0	#3d3d3d
+PieMenuLineColor	0.24 0.24 0.24 0.5	0.24 0.24 0.24 0.5	#3d3d3d a=0.50
+PieMenuTextColor	->White	1 1 1 1	#ffffff
+PieMenuSelectedColor	->EmphasisColor_35	0.749 0.467 0.808 .42	#bf77ce a=0.42
+PieMenuSelectedColorOverride	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+PropertyColorAuction	0.5 0 1 0.4	0.5 0 1 0.4	#8000ff a=0.40
+PropertyColorAvail	->Transparent	0 0 0 0	#000000 a=0.00
+PropertyColorForSale	1 0.5 0 0.4	1 0.5 0 0.4	#ff8000 a=0.40
+PropertyColorGroup	0 0.72 0.72 0.4	0 0.72 0.72 0.4	#00b8b8 a=0.40
+PropertyColorOther	1 0 0 0.4	1 0 0 0.4	#ff0000 a=0.40
+PropertyColorSelf	0 1 0 0.4	0 1 0 0.4	#00ff00 a=0.40
+ColorSwatchBorderColor	0.45098 0.517647 0.607843 1	0.45098 0.517647 0.607843 1	#73849b
+TextEmbeddedItemColor	0 0 0.5 1	0 0 0.5 1	#000080
+ToolTipBgColor	0.937 0.89 0.655 1	0.937 0.89 0.655 1	#efe3a7
+ToolTipBorderColor	0.812 0.753 0.451 1	0.812 0.753 0.451 1	#cfc073
+HintTitle	->SchemeLightest	0.749 0.467 0.808 1	#bf77ce
+HintText	->White	1 1 1 1	#ffffff
+HintBg	->Black	0 0 0 1	#000000
+AccordionHeaderTextColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+AgentChatColor	->White	1 1 1 1	#ffffff
+AgentIMColor	->White	1 1 1 1	#ffffff
+AlertBoxColor	0.24 0.24 0.24 1	0.24 0.24 0.24 1	#3d3d3d
+AlertCautionBoxColor	1 0.82 0.46 1	1 0.82 0.46 1	#ffd175
+AlertCautionTextColor	->LtYellow	1 1 .79 1	#ffffc9
+AgentLinkColor	->White	1 1 1 1	#ffffff
+AlertTextColor	0.58 0.66 0.84 1	0.58 0.66 0.84 1	#94a8d6
+AvatarListItemIconDefaultColor	->White	1 1 1 1	#ffffff
+AvatarListItemIconOnlineColor	->White	1 1 1 1	#ffffff
+AvatarListItemIconOfflineColor	0.5 0.5 0.5 0.5	0.5 0.5 0.5 0.5	#808080 a=0.50
+AvatarListItemIconVoiceInvitedColor	->AvatarListItemIconOfflineColor	0.5 0.5 0.5 0.5	#808080 a=0.50
+AvatarListItemIconVoiceJoinedColor	->AvatarListItemIconOnlineColor	1 1 1 1	#ffffff
+AvatarListItemIconVoiceLeftColor	->AvatarListItemIconOfflineColor	0.5 0.5 0.5 0.5	#808080 a=0.50
+BadgeImageColor	1.0 0.40 0.0 1.0	1.0 0.40 0.0 1.0	#ff6600
+BadgeBorderColor	0.9 0.9 0.9 1.0	0.9 0.9 0.9 1.0	#e6e6e6
+BadgeLabelColor	->White	1 1 1 1	#ffffff
+AvatarListItemChatRange	->Green5	0.2 0.6 0.4 1	#339966
+AvatarListItemShoutRange	->Yellow	1 1 0 1	#ffff00
+AvatarListItemBeyondShoutRange	->Red	1 0 0 1	#ff0000
+AvatarListItemAgeAlert	->LtRed	1 0.2 0.2 1	#ff3333
+BackgroundChatColor	->DkGray	0.125 0.125 0.125 1	#202020
+ButtonBorderColor	->Unused?	.831 1 0 1	#d4ff00
+ButtonCautionImageColor	->Unused?	.831 1 0 1	#d4ff00
+ButtonColor	->Unused?	.831 1 0 1	#d4ff00
+ButtonFlashBgColor	0.4980392156862745 0.4980392156862745 1 1	0.4980392156862745 0.4980392156862745 1 1	#7f7fff
+ButtonImageColor	->White	1 1 1 1	#ffffff
+ButtonLabelColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+ButtonLabelDisabledColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+ButtonLabelSelectedColor	->White	1 1 1 1	#ffffff
+ButtonLabelSelectedDisabledColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+ButtonSelectedBgColor	->Unused?	.831 1 0 1	#d4ff00
+ButtonSelectedColor	->Unused?	.831 1 0 1	#d4ff00
+ButtonUnselectedBgColor	->Unused?	.831 1 0 1	#d4ff00
+ButtonUnselectedFgColor	->Unused?	.831 1 0 1	#d4ff00
+ChatHistoryBgColor	->Transparent	0 0 0 0	#000000 a=0.00
+ChatHistoryTextColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+ColorDropShadow	->Black_50	0 0 0 0.5	#000000 a=0.50
+ColorPaletteEntry01	->Black	0 0 0 1	#000000
+ColorPaletteEntry02	0.5 0.5 0.5 1	0.5 0.5 0.5 1	#808080
+ColorPaletteEntry03	0.5 0 0 1	0.5 0 0 1	#800000
+ColorPaletteEntry04	0.5 0.5 0 1	0.5 0.5 0 1	#808000
+ColorPaletteEntry05	0 0.5 0 1	0 0.5 0 1	#008000
+ColorPaletteEntry06	0 0.5 0.5 1	0 0.5 0.5 1	#008080
+ColorPaletteEntry07	0 0 0.5 1	0 0 0.5 1	#000080
+ColorPaletteEntry08	0.5 0 0.5 1	0.5 0 0.5 1	#800080
+ColorPaletteEntry09	0.5 0.5 0 1	0.5 0.5 0 1	#808000
+ColorPaletteEntry10	0 0.25 0.25 1	0 0.25 0.25 1	#004040
+ColorPaletteEntry11	0 0.5 1 1	0 0.5 1 1	#0080ff
+ColorPaletteEntry12	0 0.25 0.5 1	0 0.25 0.5 1	#004080
+ColorPaletteEntry13	0.5 0 1 1	0.5 0 1 1	#8000ff
+ColorPaletteEntry14	0.5 0.25 0 1	0.5 0.25 0 1	#804000
+ColorPaletteEntry15	->White	1 1 1 1	#ffffff
+ColorPaletteEntry16	->LtYellow	1 1 .79 1	#ffffc9
+ColorPaletteEntry17	->White	1 1 1 1	#ffffff
+ColorPaletteEntry18	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+ColorPaletteEntry19	->Red	1 0 0 1	#ff0000
+ColorPaletteEntry20	->Yellow	1 1 0 1	#ffff00
+ColorPaletteEntry21	->Green	0 1 0 1	#00ff00
+ColorPaletteEntry22	0 1 1 1	0 1 1 1	#00ffff
+ColorPaletteEntry23	->Blue	0 0 1 1	#0000ff
+ColorPaletteEntry24	->Purple	1 0 1 1	#ff00ff
+ColorPaletteEntry25	1 1 0.5 1	1 1 0.5 1	#ffff80
+ColorPaletteEntry26	0 1 0.5 1	0 1 0.5 1	#00ff80
+ColorPaletteEntry27	0.5 1 1 1	0.5 1 1 1	#80ffff
+ColorPaletteEntry28	0.5 0.5 1 1	0.5 0.5 1 1	#8080ff
+ColorPaletteEntry29	1 0 0.5 1	1 0 0.5 1	#ff0080
+ColorPaletteEntry30	1 0.5 0 1	1 0.5 0 1	#ff8000
+ColorPaletteEntry31	->White	1 1 1 1	#ffffff
+ColorPaletteEntry32	->White	1 1 1 1	#ffffff
+ComboListBgColor	->DkGray	0.125 0.125 0.125 1	#202020
+ConsoleBackground	->Black	0 0 0 1	#000000
+ContextSilhouetteColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+ConversationFriendColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+DefaultHighlightDark	->White_10	1 1 1 0.1	#ffffff a=0.10
+DefaultHighlightLight	->White_25	1 1 1 0.25	#ffffff a=0.25
+DefaultShadowDark	->Black_50	0 0 0 0.5	#000000 a=0.50
+DefaultShadowLight	->Black_50	0 0 0 0.5	#000000 a=0.50
+EffectColor	->White	1 1 1 1	#ffffff
+FilterBackgroundColor	->Black	0 0 0 1	#000000
+FilterTextColor	->Kokua	0.749 0.467 0.808 1	#bf77ce
+FloaterButtonImageColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+FloaterDefaultBackgroundColor	->DkGray_66	0.125 0.125 0.125 .66	#202020 a=0.66
+FloaterFocusBackgroundColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+FloaterFocusBorderColor	->Black_50	0 0 0 0.5	#000000 a=0.50
+FloaterUnfocusBorderColor	->Black_50	0 0 0 0.5	#000000 a=0.50
+FocusColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+FolderViewLoadingMessageTextColor	0.3344 0.5456 0.5159 1	0.3344 0.5456 0.5159 1	#558b84
+GridFocusPointColor	->White_50	1 1 1 0.5	#ffffff a=0.50
+GridlineColor	->White	1 1 1 1	#ffffff
+GroupLinkColor	->White	1 1 1 1	#ffffff
+GridlineShadowColor	0 0 0 0.31	0 0 0 0.31	#000000 a=0.31
+GroupNotifyBoxColor	0.3344 0.5456 0.5159 1	0.3344 0.5456 0.5159 1	#558b84
+GroupNotifyTextColor	->White	1 1 1 1	#ffffff
+GroupNotifyDimmedTextColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+HTMLLinkColor	0.3 0.82 1 1	0.3 0.82 1 1	#4cd1ff
+HTMLLinkColorHovertips	->Black	0 0 0 1	#000000
+HealthTextColor	->White	1 1 1 1	#ffffff
+HelpBgColor	->Unused?	.831 1 0 1	#d4ff00
+HelpFgColor	->Unused?	.831 1 0 1	#d4ff00
+HelpScrollHighlightColor	->Unused?	.831 1 0 1	#d4ff00
+HelpScrollShadowColor	->Unused?	.831 1 0 1	#d4ff00
+HelpScrollThumbColor	->Unused?	.831 1 0 1	#d4ff00
+HelpScrollTrackColor	->Unused?	.831 1 0 1	#d4ff00
+HighlightChildColor	->Yellow	1 1 0 1	#ffff00
+HighlightInspectColor	1 0 1 1	1 0 1 1	#ff00ff
+IMChatColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+IMHistoryBgColor	->Unused?	.831 1 0 1	#d4ff00
+IMHistoryTextColor	->Unused?	.831 1 0 1	#d4ff00
+IconDisabledColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+IconEnabledColor	->White	1 1 1 1	#ffffff
+InventoryBackgroundColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+InventoryFocusOutlineColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+InventoryItemEnabledColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+InventoryItemSuffixColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+InventoryItemHighlightBgColor	->AnsaStormBlue_Lt_13	0 0.7305 1 0.13	#00baff a=0.13
+InventoryItemHighlightFgColor	->White	1 1 1 1	#ffffff
+InventoryItemLibraryColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+InventoryItemLinkColor	->LtGray_50	0.75 0.75 0.75 0.50	#bfbfbf a=0.50
+InventoryMouseOverColor	->LtGray_35	0.75 0.75 0.75 0.35	#bfbfbf a=0.35
+InventorySearchStatusColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+InventoryProtectedColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+LabelDisabledColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+LabelSelectedColor	->White	1 1 1 1	#ffffff
+LabelSelectedDisabledColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+LabelTextColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+LoginProgressBarBgColor	->Unused?	.831 1 0 1	#d4ff00
+LoginProgressBarFgColor	0 0.6211 0.8477 0.96	0 0.6211 0.8477 0.96	#009ed8 a=0.96
+LoginProgressBoxBorderColor	0 0.12 0.24 0	0 0.12 0.24 0	#001f3d a=0.00
+LoginProgressBoxCenterColor	0 0 0 0.78	0 0 0 0.78	#000000 a=0.78
+LoginProgressBoxShadowColor	0 0 0 0.78	0 0 0 0.78	#000000 a=0.78
+LoginProgressBoxTextColor	->White	1 1 1 1	#ffffff
+MapAvatarColor	->Green	0 1 0 1	#00ff00
+MapAvatarFriendColor	->Yellow	1 1 0 1	#ffff00
+MapAvatarLindenColor	->Blue	0 0 1 1	#0000ff
+MapAvatarMutedColor	0.4 0.4 0.4 1	0.4 0.4 0.4 1	#666666
+MapFrustumColor	->White_10	1 1 1 0.1	#ffffff a=0.10
+MapParcelOutlineColor	1 1 0 0.5	1 1 0 0.5	#ffff00 a=0.50
+MapTrackColor	->Red	1 0 0 1	#ff0000
+MapTrackColorUnder	->Blue	0 0 1 1	#0000ff
+MapTrackDisabledColor	0.5 0 0 1	0.5 0 0 1	#800000
+MapWhisperRingColor	0 0 1 0.3	0 0 1 0.3	#0000ff a=0.30
+MapChatRingColor	1 1 0 0.3	1 1 0 0.3	#ffff00 a=0.30
+MapShoutRingColor	1 0 0 0.3	1 0 0 0.3	#ff0000 a=0.30
+MenuBarBgColor	->DkGray	0.125 0.125 0.125 1	#202020
+MenuBarGodBgColor	->FrogGreen	0.26 0.345 0.263 1	#425843
+MenuDefaultBgColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+MenuItemDisabledColor	->LtGray_50	0.75 0.75 0.75 0.50	#bfbfbf a=0.50
+MenuItemEnabledColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+MenuItemHighlightBgColor	->EmphasisColor_35	0.749 0.467 0.808 .42	#bf77ce a=0.42
+MenuItemFlashBgColor	->BeaconColor	0.749 0.298 0 1	#bf4c00
+MenuItemHighlightFgColor	->White	1 1 1 1	#ffffff
+MenuNonProductionBgColor	->Black	0 0 0 1	#000000
+MenuPopupBgColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+ModelUploaderLabels	1 0.6 0 1	1 0.6 0 1	#ff9900
+MultiSliderDisabledThumbColor	->Black	0 0 0 1	#000000
+MultiSliderThumbCenterColor	->White	1 1 1 1	#ffffff
+MultiSliderThumbCenterSelectedColor	->Green	0 1 0 1	#00ff00
+MultiSliderThumbOutlineColor	->Unused?	.831 1 0 1	#d4ff00
+MultiSliderTrackColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+MultiSliderTriangleColor	->Yellow	1 1 0 1	#ffff00
+NameTagChat	->White	1 1 1 1	#ffffff
+NameTagChatDistanceColor	->Green5	0.2 0.6 0.4 1	#339966
+NameTagShoutDistanceColor	->Yellow	1 1 0 1	#ffff00
+NameTagBeyondShoutDistanceColor	->Red	1 0 0 1	#ff0000
+NameTagWhisperDistanceColor	->Green1	0 1 0 1	#00ff00
+NameTagFriend	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+NameTagSelf	->White	1 1 1 1	#ffffff
+NameTagMuted	0.4 0.4 0.4 1	0.4 0.4 0.4 1	#666666
+NameTagLinden	->LtBlue	0 0.5 1 1	#0080ff
+NameTagLegacy	->White	1 1 1 1	#ffffff
+NameTagV1	0.98 0.69 0.36 1.0	0.98 0.69 0.36 1.0	#fab05c
+NameTagMatch	->White	1 1 1 1	#ffffff
+NameTagMismatch	->White	1 1 1 1	#ffffff
+NameTagUsername	1 0.5 0 1	1 0.5 0 1	#ff8000
+NetMapBackgroundColor	0 0 0 1	0 0 0 1	#000000
+NotifyBoxColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+NotifyCautionBoxColor	1 0.82 0.46 1	1 0.82 0.46 1	#ffd175
+NotifyCautionWarnColor	->White	1 1 1 1	#ffffff
+NotifyTextColor	->White	1 1 1 1	#ffffff
+ObjectBubbleColor	->DkGray_66	0.125 0.125 0.125 .66	#202020 a=0.66
+ChatNameColor	->AnsaStorm_HtmlLink	0 0.6 0.82 1	#0099d1
+ChatNameObjectColor	->AnsaStorm_HtmlLink	0 0.6 0.82 1	#0099d1
+ObjectChatColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+ObjectIMColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+OverdrivenColor	->Red	1 0 0 1	#ff0000
+PanelDefaultBackgroundColor	->DkGray	0.125 0.125 0.125 1	#202020
+PanelDefaultHighlightLight	->White_50	1 1 1 0.5	#ffffff a=0.50
+PanelFocusBackgroundColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+PanelNotificationBackground	1 0.3 0.3 0	1 0.3 0.3 0	#ff4c4c a=0.00
+ParcelNormalColor	->LabelTextColor	0.75 0.75 0.75 1	#bfbfbf
+ParcelHoverColor	->White	1 1 1 1	#ffffff
+PathfindingErrorColor	->LtRed	1 0.2 0.2 1	#ff3333
+PathfindingWarningColor	->DrYellow	1 0.86 0 1	#ffdb00
+PathfindingGoodColor	->LtGreen	0.2 1 0.2 1	#33ff33
+MaterialErrorColor	->LtRed	1 0.2 0.2 1	#ff3333
+MaterialWarningColor	->DrYellow	1 0.86 0 1	#ffdb00
+MaterialGoodColor	->LtGreen	0.2 1 0.2 1	#33ff33
+PathfindingDefaultBeaconColor	->Red_80	1 0 0 0.8	#ff0000 a=0.80
+PathfindingDefaultBeaconTextColor	->White	1 1 1 1	#ffffff
+PathfindingLinksetBeaconColor	->Blue_80	0 0 1 0.8	#0000ff a=0.80
+PathfindingCharacterBeaconColor	->Red_80	1 0 0 0.8	#ff0000 a=0.80
+ScriptBgReadOnlyColor	0.39 0.39 0.39 1	0.39 0.39 0.39 1	#636363
+ScriptErrorColor	->Red	1 0 0 1	#ff0000
+ScrollBGStripeColor	->Transparent	0 0 0 0	#000000 a=0.00
+ScrollBgReadOnlyColor	->Transparent	0 0 0 0	#000000 a=0.00
+ScrollBgWriteableColor	->White_05	1 1 1 0.05	#ffffff a=0.05
+ScrollDisabledColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+ScrollHighlightedColor	->Unused?	.831 1 0 1	#d4ff00
+ScrollHoveredColor	0.375 0.225 0.405 1	0.375 0.225 0.405 1	#603967
+ScrollSelectedBGColor	->EmphasisColor_35	0.749 0.467 0.808 .42	#bf77ce a=0.42
+ScrollSelectedFGColor	->White	1 1 1 1	#ffffff
+ScrollUnselectedColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+ScrollbarThumbColor	->White	1 1 1 1	#ffffff
+ScrollbarTrackColor	->Black	0 0 0 1	#000000
+SelectedOutfitTextColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+WornOutfitTextColor	->Kokua	0.749 0.467 0.808 1	#bf77ce
+SearchableControlHighlightFontColor	1 0 0 1	1 0 0 1	#ff0000
+SearchableControlHighlightBgColor	0.5 0.1 0.1 1	0.5 0.1 0.1 1	#801a1a
+SilhouetteChildColor	0.13 0.42 0.77 1	0.13 0.42 0.77 1	#216bc4
+SilhouetteParentColor	->Yellow	1 1 0 1	#ffff00
+SliderDisabledThumbColor	->White_25	1 1 1 0.25	#ffffff a=0.25
+SliderThumbCenterColor	->White	1 1 1 1	#ffffff
+SliderThumbOutlineColor	->White	1 1 1 1	#ffffff
+SliderTrackColor	->Unused?	.831 1 0 1	#d4ff00
+SpeakingColor	->FrogGreen	0.26 0.345 0.263 1	#425843
+SystemChatColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+SelectedBgReadOnlyColor	0.375 0.233 0.404 1	0.375 0.233 0.404 1	#603b67
+TextBgFocusColor	->White	1 1 1 1	#ffffff
+TextBgReadOnlyColor	->White_05	1 1 1 0.05	#ffffff a=0.05
+TextBgWriteableColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+TextBgHighlightColor	->EmphasisColorLight	0.95 0.95 0.0 1	#f2f200
+TextCursorColor	->Black	0 0 0 1	#000000
+TextDefaultColor	->Black	0 0 0 1	#000000
+TextEmbeddedItemReadOnlyColor	->Unused?	.831 1 0 1	#d4ff00
+TextFgColor	0.102 0.102 0.102 1	0.102 0.102 0.102 1	#1a1a1a
+TextFgReadOnlyColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+TextFgTentativeColor	0.4 0.4 0.4 1	0.4 0.4 0.4 1	#666666
+TimeTextColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+TitleBarFocusColor	->White_10	1 1 1 0.1	#ffffff a=0.10
+ToastBackground	0.3 0.3 0.3 0	0.3 0.3 0.3 0	#4c4c4c a=0.00
+ToolTipTextColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+InspectorTipTextColor	->LtGray	0.75 0.75 0.75 1	#bfbfbf
+UserChatColor	->Yellow	1 1 0 1	#ffff00
+llOwnerSayChatColor	->LtYellow	1 1 .79 1	#ffffc9
+FriendsChatColor	->White	1 1 1 1	#ffffff
+LindenChatColor	->LtBlue	0 0.5 1 1	#0080ff
+MutedChatColor	0.4 0.4 0.4 1	0.4 0.4 0.4 1	#666666
+OutputMonitorMutedColor	->DkGray2	0.169 0.169 0.169 1	#2b2b2b
+SysWellItemUnselected	0 0 0 0	0 0 0 0	#000000 a=0.00
+SysWellItemSelected	0.3 0.3 0.3 1.0	0.3 0.3 0.3 1.0	#4c4c4c
+ChatToastAgentNameColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+ChatTeleportSeparatorColor	->Black	0 0 0 1	#000000
+ChatTimestampColor	->White	1 1 1 1	#ffffff
+MenuBarStreamingBgColor	->DkGray	0.125 0.125 0.125 1	#202020
+MenuBarBetaBgColor	->DkBlue	.06 .06 .3 1	#0f0f4c
+MenuBarProjectBgColor	->MdBlue	.07 .38 .51 1	#126182
+MenuBarTestBgColor	->DkRed	0.3 0.06 0.06 1	#4c0f0f
+MeshImportTableNormalColor	1 1 1 1	1 1 1 1	#ffffff
+MeshImportTableHighlightColor	0.2 0.8 1 1	0.2 0.8 1 1	#33ccff
+DirectChatColor	->LtOrange	1 .85 .73 1	#ffd9ba
+ToolbarDropZoneColor	.48 .69 1 .5	.48 .69 1 .5	#7ab0ff a=0.50
+PanelNotificationListItem	0.3 0.3 0.3 .3	0.3 0.3 0.3 .3	#4c4c4c a=0.30
+StatusUserOnline	->White	1 1 1 1	#ffffff
+StatusUserOffline	->LtGray_35	0.75 0.75 0.75 0.35	#bfbfbf a=0.35
+StatusUserUnknown	->White	1 1 1 1	#ffffff
+GroupVisibleInProfile	->TextBgFocusColor	1 1 1 1	#ffffff
+GroupHiddenInProfile	->Gray	0.5 0.5 0.5 1	#808080
+white	1 1 1 1	1 1 1 1	#ffffff
+black	0 0 0 1	0 0 0 1	#000000
+red	1 0 0 1	1 0 0 1	#ff0000
+green	0 1 0 1	0 1 0 1	#00ff00
+blue	0 0 1 1	0 0 1 1	#0000ff
+MediaListItemColor	->white	1 1 1 1	#ffffff
+CurrencyColor	->LabelTextColor	0.75 0.75 0.75 1	#bfbfbf
+ScriptText	->Black	0 0 0 1	#000000
+ScriptBackground	->White	1 1 1 1	#ffffff
+ScriptCursorColor	->Black	0 0 0 1	#000000
+SyntaxLslComment	0 0.5 0 1	0 0.5 0 1	#008000
+SyntaxLslConstant	0 0.6 0.6 1	0 0.6 0.6 1	#009999
+SyntaxLslControlFlow	0.4 0 0.8 1	0.4 0 0.8 1	#6600cc
+SyntaxLslControlLabel	0 0 0.8 1	0 0 0.8 1	#0000cc
+SyntaxLslDataType	0.8 0.4 0 1	0.8 0.4 0 1	#cc6600
+SyntaxLslDeprecated	0.9 0.0 0.66 1	0.9 0.0 0.66 1	#e600a8
+SyntaxLslEvent	0 0.3 0.5 1	0 0.3 0.5 1	#004c80
+SyntaxLslFunction	0.3 0 0.5 1	0.3 0 0.5 1	#4c0080
+SyntaxLslGodMode	0.7 .2 .35 1	0.7 .2 .35 1	#b23359
+SyntaxLslStringLiteral	1 0.14 0 1	1 0.14 0 1	#ff2400
+OutfitGalleryItemSelected	0.75 0.47 0.81 1	0.75 0.47 0.81 1	#bf78cf
+OutfitGalleryItemWorn	0.82 0.60 0.93 1	0.82 0.60 0.93 1	#d199ed
+OutfitGalleryItemUnselected	0.4 0.4 0.4 1	0.4 0.4 0.4 1	#666666
+PanelGray	0.27 0.27 0.27 1	0.27 0.27 0.27 1	#454545
+PerformanceMid	1 0.8 0 1	1 0.8 0 1	#ffcc00
+SyntaxLslSection	.5 .1 .3 1	.5 .1 .3 1	#801a4c
+SyntaxLslIntegerConstant	.1 .1 .5 1	.1 .1 .5 1	#1a1a80
+SyntaxLslStringConstant	.1 .3 .5 1	.1 .3 .5 1	#1a4c80
+SyntaxLslFloatConstant	.3 .1 .5 1	.3 .1 .5 1	#4c1a80
+SyntaxLslCompoundConstant	.4 .2 .4 1	.4 .2 .4 1	#663366
+SyntaxLslPreprocessor	0 0 .8 1	0 0 .8 1	#0000cc
+XUITooltipFileName	0.7 0.7 1 1	0.7 0.7 1 1	#b2b2ff
+VoiceConnectedColor	->Green	0 1 0 1	#00ff00
+VoiceErrorColor	->Red	1 0 0 1	#ff0000
+VoiceNotConnectedColor	->Yellow	1 1 0 1	#ffff00
+FSChatHistoryBackground	->Transparent	0 0 0 0	#000000 a=0.00
+ChatHeaderAlphaBackground	->Black_25	0 0 0 0.25	#000000 a=0.25
+ChatHeaderOpaqueBackground	->Black_25	0 0 0 0.25	#000000 a=0.25
+ScriptSelectedColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+MapPickRadiusColor	->EmphasisColor_35	0.749 0.467 0.808 .42	#bf77ce a=0.42
+Slidermark	->DkGray0	0.27 0.27 0.27 1	#454545
+MoneyTrackerIncrease	->Green	0 1 0 1	#00ff00
+MoneyTrackerDecrease	->Red	1 0 0 1	#ff0000
+UriQueryPartColor	->AnsaStorm_HtmlLink_QueryPart	0.463 0.729 0.826 1	#76bad3
+UploadDialogBackground	->SL-Background_66	0.125 0.125 0.125 0.66	#202020 a=0.66
+ChatHistoryMessageFromLog	->Gray	0.5 0.5 0.5 1	#808080
+AreaSearchBeaconColor	->Blue_80	0 0 1 0.8	#0000ff a=0.80
+NotecardBackgroundColor	->TextBgFocusColor	1 1 1 1	#ffffff
+NotecardTextColor	->TextFgColor	0.102 0.102 0.102 1	#1a1a1a
+NotecardSelectionColor	->EmphasisColor	0.749 0.467 0.808 1	#bf77ce
+NotecardCursorColor	->TextCursorColor	0 0 0 1	#000000
+FpsDisplayUncappedColor	->LabelTextColor	0.75 0.75 0.75 1	#bfbfbf
+FpsDisplayUnfocussedColor	->Gray	0.5 0.5 0.5 1	#808080
+FpsDisplayBelowLimitColor	->Yellow	1 1 0 1	#ffff00
+FpsDisplayFpsLimitReachedColor	->Green	0 1 0 1	#00ff00
+FpsDisplayVSyncLimitReachedColor	->Green	0 1 0 1	#00ff00
+ChatMentionFont	0.3 0.82 1 1	0.3 0.82 1 1	#4cd1ff
+ChatMentionHighlight	0.82 0.91 0.98 0.15	0.82 0.91 0.98 0.15	#d1e8fa a=0.15
+ChatSelfMentionHighlight	1 1 0 0.35	1 1 0 0.35	#ffff00 a=0.35
+MentionFlashBgColor	1 1 0 0.5	1 1 0 0.5	#ffff00 a=0.50
+ToolbarButtonFlashBgColor	0.258 0.363 0.472 1	0.258 0.363 0.472 1	#425d78
+HighlightPanelBackground	->EmphasisColor_35	0.749 0.467 0.808 .42	#bf77ce a=0.42
+ListViewBgColor	->ScrollBgWriteableColor	1 1 1 0.05	#ffffff a=0.05
+ListViewSelectedBgColor	->ScrollSelectedBGColor	0.749 0.467 0.808 .42	#bf77ce a=0.42
+ListViewSelectedFgColor	->ScrollSelectedFGColor	1 1 1 1	#ffffff
+EmphasisColorLight	0.95 0.95 0.0 1	0.95 0.95 0.0 1	#f2f200
+DkGray_42	0.125 0.125 0.125 .42	0.125 0.125 0.125 .42	#202020 a=0.42
+DkGrayLogin	0.129 0.133 0.137 1	0.129 0.133 0.137 1	#212223
+Orange1	1 .5 0 1	1 .5 0 1	#ff8000
+Green1	0 1 0 1	0 1 0 1	#00ff00
+Green5	0.2 0.6 0.4 1	0.2 0.6 0.4 1	#339966
+AudioStreamColour	0.74 0.81 0.84 1	0.74 0.81 0.84 1	#bdcfd6
+AudioStreamTitle	->Kokua	0.749 0.467 0.808 1	#bf77ce
+AvatarListItemWhisperRange	->Green1	0 1 0 1	#00ff00
+ChatEntryBgColourConference	0.85 0.85 1 1	0.85 0.85 1 1	#d9d9ff
+ChatEntryBgColourGroup	0.85 1 0.85 1	0.85 1 0.85 1	#d9ffd9
+ChatEntryBgColourIM	1 0.85 0.85 1	1 0.85 0.85 1	#ffd9d9
+InventoryFavoriteColor	->Yellow	1 1 0 1	#ffff00
+Kokua	0.749 0.467 0.808 1	0.749 0.467 0.808 1	#bf77ce
+Kokua_11	0.749 0.467 0.808 .11	0.749 0.467 0.808 .11	#bf77ce a=0.11
+Kokua_13	0.749 0.467 0.808 .13	0.749 0.467 0.808 .13	#bf77ce a=0.13
+Kokua_23	0.749 0.467 0.808 .23	0.749 0.467 0.808 .23	#bf77ce a=0.23
+Kokua_42	0.749 0.467 0.808 .42	0.749 0.467 0.808 .42	#bf77ce a=0.42
+KokuaNameTagTypingColor	->Orange1	1 .5 0 1	#ff8000
+NetMapGroupPhysical	0 0.78 0 1	0 0.78 0 1	#00c700
+NetMapOtherPhysical	0.78 0 0 1	0.78 0 0 1	#c70000
+NetMapPropertyLineColor	1 1 1 1	1 1 1 1	#ffffff
+NetMapPropertyForSaleColor	1 0.5 0 0.4	1 0.5 0 0.4	#ff8000 a=0.40
+NetMapScripted	1 0.5 0 1	1 0.5 0 1	#ff8000
+NetMapTempOnRez	1 0.5 0 1	1 0.5 0 1	#ff8000
+ColorSwatchBorderColorGray	0.329 0.329 0.329 1	0.329 0.329 0.329 1	#545454
+ResizebarBorderLight	0.231 0.231 0.231 1	0.231 0.231 0.231 1	#3b3b3b
+ResizebarBorderDark	0.133 0.133 0.133 1	0.133 0.133 0.133 1	#222222
+ResizebarBody	0.208 0.208 0.208 1	0.208 0.208 0.208 1	#353535
+SearchableControlHighlightColor	->Red	1 0 0 1	#ff0000
+PanelDark	0.078 0.078 0.078 1	0.078 0.078 0.078 1	#141414
+AddPaymentPanel	0.27 0.27 0.27 1	0.27 0.27 0.27 1	#454545
+OutfitSnapshotMacMask	0.115 0.115 0.115 1	0.115 0.115 0.115 1	#1d1d1d
+OutfitSnapshotMacMask2	0.1 0.1 0.1 1	0.1 0.1 0.1 1	#1a1a1a
+ConversationTabFlashBgColor	0.749 0.467 0.808 0.20	0.749 0.467 0.808 0.20	#bf77ce a=0.20
+NameTagBackground	0 0 0 1	0 0 0 1	#000000
