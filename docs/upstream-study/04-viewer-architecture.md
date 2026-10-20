@@ -1,3 +1,5 @@
+> Scope note (2026-10-20): where this report suggests dropping or deferring a feature (Vivox, OpenSim paths, legacy asset fallbacks), the project decision is to keep it, selected by grid profile at login (Second Life or OpenSim), not per region. See the scope decisions in [README.md](README.md).
+
 # Firestorm viewer architecture and data flow — survey for a from-scratch Rust viewer
 
 Source: Firestorm `master` as of 2026-10-18 (worktree `C:\Dev\vkstorm-aleph-ref`, branch `vkstorm-aleph`, commit `0de5043af0`). All citations are `path:line` relative to `indra/` unless prefixed with `../` (the message template lives at `../scripts/messages/message_template.msg`). Nothing in the worktree was modified. Renderer internals and shaders are covered by a separate survey; this document covers everything else.

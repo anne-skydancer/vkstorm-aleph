@@ -1,6 +1,12 @@
 # vkstorm-aleph
 
-A Second Life viewer written from the ground up in Rust on Vulkan.
+Vulkanstorm's future-proofing track: a Second Life viewer written from the
+ground up in Rust on Vulkan. It shares its Rust code base, the crates in
+[vkstorm-core-rust](https://github.com/anne-skydancer/vkstorm-core-rust), with `vkstorm-rust`, the modernisation track
+that ports the existing Vulkanstorm viewer to Rust incrementally on its
+current OpenGL pipeline. Neither track cuts existing
+viewer features; Vivox and WebRTC voice both stay, and OpenSim support is
+kept where it costs little.
 
 Goals:
 

@@ -1,3 +1,5 @@
+> Scope note (2026-10-20): where this report suggests dropping or deferring a feature (Vivox, OpenSim paths, legacy asset fallbacks), the project decision is to keep it, selected by grid profile at login (Second Life or OpenSim), not per region. See the scope decisions in [README.md](README.md).
+
 # Firestorm native dependencies and the C++ surface
 
 Source surveyed: `C:\Dev\vkstorm-aleph-ref` (branch `vkstorm-aleph`, Firestorm master as of 2026-10-18). All paths below are relative to that repo root. Line counts were produced with `wc -l` over `*.cpp/*.h/*.inl/*.mm/*.c`, excluding `tests/` directories.

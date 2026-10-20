@@ -23,6 +23,39 @@ cited as `path:line`.
 | Paths in reports | relative to `indra/` unless stated |
 | Date of study | 2026-10-20 |
 
+## Scope decisions that override the reports
+
+These were settled on 2026-10-20 and take precedence wherever a report below
+suggests otherwise:
+
+- **Both tracks are Vulkanstorm.** `vkstorm-aleph` is the future-proofing
+  track (ground-up, Vulkan, Rust). `vkstorm-rust` is the modernisation track
+  (incremental Rust port of the existing viewer on the current GL pipeline).
+  They share one Rust code base, the crates in
+  [vkstorm-core-rust](https://github.com/anne-skydancer/vkstorm-core-rust), consumed by both as git dependencies pinned
+  by commit. Firestorm is the reference, not the product.
+- **No existing feature is cut in either track.** Where a report recommends
+  dropping something (legacy baking, UDP asset fallbacks, Vivox, OpenSim
+  paths), read it as "implement, selected by grid profile", not "remove".
+- **Vivox is essential** and stays in both tracks alongside WebRTC. It is an
+  external `SLVoice` daemon spoken to over TCP, so it is a protocol client to
+  port (about 8k lines in `llvoicevivox.cpp`), not a linked library.
+  Firestorm selects the voice module per grid at runtime from the
+  `VoiceServerType` simulator feature; keep that selection.
+- **OpenSim support is a nice-to-have**, kept where it costs little.
+- **Protocol variants are selected by grid profile at login, not per region.**
+  A session is bound to one grid from login to logout; it is impossible to
+  travel between Second Life and an OpenSim grid, so the profile is fixed for
+  the whole session and never re-evaluated. The Second Life profile uses the
+  HTTP capability paths exclusively and never consults the UDP fallbacks,
+  since every Second Life region is identical in this respect. The OpenSim profile exists only in builds with OpenSim
+  support compiled in (a Cargo feature in Rust, as `OPENSIM` is in CMake
+  today); a Second Life-only build contains no OpenSim profile and none of
+  the legacy paths. Within an OpenSim-enabled build the profile is chosen at
+  login, and only inside the OpenSim profile, where hypergrid simulators
+  differ, does capability presence decide per simulator, as the viewer
+  already does today. Nothing is negotiated per region on Second Life.
+
 The reports were produced by five parallel code surveys, then synthesised here.
 Line numbers are valid for the commit above only. Each report ends with a list of
 what its author could not determine from code alone. Treat those lists as the
@@ -48,6 +81,12 @@ Reports:
   order-independent transparency, SLua editor and IDE bridge) and the audio
   decisions on SoLoud and speaker fill. Detail reports in
   [carry-over/](carry-over/).
+- [07-j2c-decoder-evaluation.md](07-j2c-decoder-evaluation.md): measured
+  comparison of the Vulkanstorm OpenJPEG fork against the pure-Rust
+  `hayro-jpeg2000` and `j2k` decoders on the viewer's progressive decode
+  pattern, with the verdict, and the outcome that superseded it (the
+  OpenJPEG port `vkstorm-openjp2`). Harness in
+  [vkstorm-core-rust](https://github.com/anne-skydancer/vkstorm-core-rust/tree/main/tools/j2c-eval).
 
 ## Scale of the thing
 
@@ -88,14 +127,15 @@ in [05 §3](05-native-dependencies.md) and [02 §5](02-shader-system.md).
 
 The shipped Firestorm binary carries four proprietary components, all of which
 disappear in the Rust viewer: FMOD Studio, Kakadu, Havok, BugSplat. Vivox is
-OpenSim-only; Second Life voice is WebRTC.
+not a linked library but an external daemon; its client stays in scope (see
+the scope decisions above). On the Second Life grid voice is WebRTC.
 
 What remains as C or C++ behind FFI, in order of necessity:
 
 | Library | Why it stays native | Rust path |
 |---|---|---|
-| **OpenJPEG** | Texture decode is the most performance-critical codec in SL. It needs resolution-reduced decode of truncated byte ranges (discard levels) and encoding for uploads. `hayro-jpeg2000` (0.4.1, pure Rust, 4M downloads) is a strong full-image decoder but progressive partial decode is unconfirmed. | `openjp2-sys` FFI, ~45 symbols. Benchmark `hayro-jpeg2000` for the full-decode path. |
-| **libwebrtc** | SL voice needs its audio processing (echo cancel, gain, noise), device I/O, NetEQ and Opus. ~60 symbols used today. | Wrap Firestorm's `llwebrtc.dll` interface (~25 virtuals) behind a C ABI, or LiveKit's `webrtc-sys`. |
+| **OpenJPEG** | Texture decode is the most performance-critical codec in SL. It needs resolution-reduced decode of truncated byte ranges (discard levels) and encoding for uploads. | Resolved: no FFI. `vkstorm-openjp2` in vkstorm-core-rust is a Rust port of the fork, bit-identical in decode, byte-identical in encode, at or above the fork's speed; see [07](07-j2c-decoder-evaluation.md) for the evaluation that preceded it. |
+| **libwebrtc** | SL voice needs its audio processing (echo cancel, gain, noise), device I/O, NetEQ and Opus. ~60 symbols used today. | Wrap Firestorm's `llwebrtc.dll` interface (~25 virtuals) behind a C ABI, or LiveKit's `webrtc-sys`. Vivox voice needs no library: the `SLVoice` daemon is launched and driven over TCP. |
 | **CEF** | Chromium. Out of process either way. | Keep the C++ `SLPlugin` sidecar and reimplement only the host side of its LLSD-over-socket protocol (~3.5k lines). |
 | meshoptimizer | 9 functions, mature `meshopt` crate. | FFI, no reason to port. |
 | GStreamer or libvlc | Media playback, out of process. | `gstreamer-rs` or `vlc-rs`. |
@@ -430,7 +470,8 @@ Open, needing empirical work against a live grid or a running Firestorm:
 - Hollow-prim face index order (code places the inner face before the bottom
   cap; verify against live SL face numbers before hard-coding the mapping).
 - Whether `hayro-jpeg2000` can serve the discard-level progressive path or only
-  full decodes.
+  full decodes. Answered in [07-j2c-decoder-evaluation.md](07-j2c-decoder-evaluation.md):
+  it can, with a small patch.
 - Per-program active sampler counts at runtime (upper bounds known: 21 samplers
   in PBR terrain, ~15 in forward alpha).
 - The exact linked program count (`NORMAL_DEBUG_SHADER_COUNT` and
